@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Input Reveal Issue</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item-group>
+        <ion-item>
+          <ion-label position="floating" color="success">Username</ion-label>
+          <ion-input color="primary" pattern="text" inputmode="text" clearInput
+                     clearOnEdit="false" type="text" debounce="1000">
+          </ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating" color="warning">Password</ion-label>
+          <ion-input color="secondary" pattern="password" inputmode="text" clearInput
+                     clearOnEdit="false" type="password" debounce="1000">
+          </ion-input>
+        </ion-item>
+      </ion-item-group>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
